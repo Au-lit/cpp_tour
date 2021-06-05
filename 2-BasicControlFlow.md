@@ -4,11 +4,11 @@ Last Time we made a program that asks the user their name and prints it out afte
 #include <string>
 
 int main() {
-	std::cout << "Hello you, what is your name?\n";
-	std::string name;
-	std::cin >> name;
-	std::cout << "Your name is: " << name << "\n";
-	if (name == "MyName") {
-		std::cout << "And I know you!\n";
-	}
+    std::cout << "Hello you, what is your name?\n";
+    std::string name;
+    std::cin >> name;
+    std::cout << "Your name is: " << name << "\n";
+    if (name == "MyName") {
+	    std::cout << "And I know you!\n";
+    }
 }
