@@ -5,7 +5,7 @@ To start off let's make hello world:
 #include <iostream> // makes std::cout accessible
 
 int main() {
-	std::cout << "Hello, new world!\n";
+    std::cout << "Hello, new world!\n";
 }
 ```
 `#include <iostream>` is quite simple: "imports" the input/output library. After we have this `int main()` thing... it's the entry point of your app i.e. it is where it starts and ends. The code executed is contained between the two curly braces of it. The last thing to understand is `std::cout << "Hello, new world!\n";`. It abasically "pushes/inserts" (`<<`) in the **C**haracter **OUT**put the string `Hello, new world!\n` which will print on your console. (`\n` being a new line.) And that's all. Just be sure that this code compiles for you and we can continue to:
@@ -16,8 +16,8 @@ Let's write a program that asks you your name and says hello to you.
 #include <iostream>
 
 int main() {
-	std::cout << "Hello you, what is your name?\n";
-	// WHAT DO I WRITE AFTER???
+    std::cout << "Hello you, what is your name?\n";
+    // WHAT DO I WRITE AFTER???
 }
 ```
 well what do we need to do? Se need to 
@@ -35,9 +35,9 @@ But we have a new problem now: what should be name? Well it should be a string, 
 #include <string>
 
 int main() {
-	std::cout << "Hello you, what is your name?\n";
-	std::string name;
-	std::cin >> name;
-	std::cout << "Your name is: " << name << "\n";
+    std::cout << "Hello you, what is your name?\n";
+    std::string name;
+    std::cin >> name;
+    std::cout << "Your name is: " << name << "\n";
 }
 ```
