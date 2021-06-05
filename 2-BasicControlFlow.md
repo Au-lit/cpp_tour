@@ -37,7 +37,7 @@ int main() {
         std::cout << 0;
     }
     else if (number == 1) {
-        for (;;) {
+        while (true == true) {
             std::cout << 1;
         }
     }
@@ -46,4 +46,4 @@ int main() {
     }
 }
 ```
-The only tricky part in this is the `for (;;)`; in short, it repeats the instructutions in it's body forever.
+Seeing all of of that you might wonder what is this blue `true` thing; it's a `bool` (boolean) value. All thing like `if`/`else`, `while` or others that takes a condition expects a boolean value i.e. something either `true` or `false`.
