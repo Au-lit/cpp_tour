@@ -3,15 +3,14 @@
 ### The C++ type system
 One thing that you might have not caught is that C++ has a strong type system. I.e. you cannot not give a type to a variable (a type being something like `int`, `std::string` of `double` for [floating point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic) [decimal numbers]). For example this is valid C++:
 ```cpp
-int a = 384;
+int i = 384;
 std::string str = "Some text";
 double d = 0.69;
 ```
 but _declaring_ them without types would be illegal. i.e. doing a program like
 ```cpp
 int main() {
-    a; // lacking a type (probably int)
-    a = 50;
+    a = 50; // lacking a type (probably int)
 }
 ```
 would be wrong.
