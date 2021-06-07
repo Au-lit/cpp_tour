@@ -15,7 +15,9 @@ The answer is a student. So let's create one:
 class Student {
     std::string name;
     std::vector<double> notes;
-    double average();
+    double average() {
+        return std::accumulate(notes.begin(), notes.end(), 0.0) / notes.size(); 
+    }
 };
 ```
 We can now create a new student:
