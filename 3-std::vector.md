@@ -32,4 +32,5 @@ int main() {
     double average = sum / vec.size()
 }
 ```
-Declaring a vector is sort of simple: `std::vector<TheTypeYouWant>`
+Declaring a vector is sort of simple: `std::vector<TheTypeYouWant>`.
+The `for (type thing : otherThing)` basically is equivalent to other langs `for each (thing in otherThing)`; it loops over every element of the `otherThing` and gives you the element as the name you wrote, here `d`. But now you may ask is there ways to make this better? Yes and we will look at them in the nexts chapters, mainly with scopes and `<algorithm>`.
