@@ -22,8 +22,8 @@ would be wrong.
 int main() {
     std::vector<double> vec;
 	double tmp = 0.0;
-    while (std::cin >> tmp) {
-        vec.push_back(tmp);
+    while (std::cin >> tmp) { // while the user inputs valid stuff
+        vec.push_back(tmp); // append the provided value
     }
     double sum = 0.0;
     for (double d : vec) {
