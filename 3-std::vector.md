@@ -15,3 +15,21 @@ int main() {
 ```
 would be wrong.
 ### Computing the average of notes
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<double> vec;
+	double tmp = 0.0;
+    while (std::cin >> tmp) {
+        vec.push_back(tmp);
+    }
+    double sum = 0.0;
+    for (double d : vec) {
+        sum = sum + d;
+    }
+    double average = sum / vec.size()
+}
+```
+Declaring a vector is sort of simple: `std::vector<TheTypeYouWant>`
