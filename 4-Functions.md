@@ -1,0 +1,3 @@
+# Functions
+### Expressing intent
+### Structuing code in a more useful way...
