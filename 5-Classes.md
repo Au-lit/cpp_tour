@@ -42,3 +42,7 @@ private:
 }
 ```
 So to fix our problem we can just write `public:` before declaring any members (the things inside the class).
+
+But what is the purpose of `private:` then?
+
+If you want your stuff to not be used by bad pepoles.
