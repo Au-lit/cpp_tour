@@ -14,3 +14,5 @@ That means that you potentially are copying a lot of data (depending on the thin
 `const` allows you to declare an immutable object (for true constants there is an other keyword that we will see later.)
 It gets interesting when mixed with references.
 For example, a `const std::vector<int>&` would be a constant reference to a `std::vector` of ints.
+That means that it will be a reference but we can't modify the object referenced.
+Essentially somebody reading code with a const reference will know that there is no copy but we won't modify it through the reference.
