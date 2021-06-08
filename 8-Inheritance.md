@@ -29,7 +29,7 @@ int main() {
     Human yourMom;
     Student you;
     seeHuman(yourMom); // If you debug inside this function
-                     // you should not see a notes member
+                       // you should not see a notes member
     seeHuman(you); // But here you will.
 }
 ```
