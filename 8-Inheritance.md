@@ -22,8 +22,8 @@ maybeYou.name = "???"; // we got name from Human
 
 ### Fun starts with references (polymorphism)
 ```cpp
-void seeHuman(const Human& human) {
-    // empty for demonstration purposes
+void seeHuman(const Human& human) { // Take any human, of any type...
+    // (put a breakpoint here)
 }
 
 int main() {
@@ -34,6 +34,6 @@ int main() {
     seeHuman(you); // But here you will.
 }
 ```
-In a way we sort of got rid of the type.
+In a way we sort of got rid of the type because a `Student` is also a `Human` (ok I get it, in real life this might not always be true but whatever; in our C++ example it is.)
 Seeing that you may ask is there a more "general" way to "stop caring about the type"?
 Yes, there is and it's in the next chapter.
