@@ -26,9 +26,9 @@ void seeHuman(const Human& human) {
 }
 
 int main() {
-    Human human;
+    Human yourMom;
     Student you;
-    seeHuman(human); // If you debug inside this function
+    seeHuman(yourMom); // If you debug inside this function
                      // you should not see a notes member
     seeHuman(you); // But here you will.
 }
