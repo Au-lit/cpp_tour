@@ -8,7 +8,7 @@ struct Human { // struct is like class,
     std::string name;
 };
 
-class Student : public Human { // we steal all the public functionality of a Human
+class Student : public Human { // we steal all public functionality of Human
 public:
     std::vector<double> notes;
 	double average();
