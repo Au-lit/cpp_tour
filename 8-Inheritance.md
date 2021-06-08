@@ -22,7 +22,7 @@ maybeYou.name = "???"; // we got name from Human
 ### Fun starts with references
 ```cpp
 void seeHuman(const Human& human) {
-:no_entry:    // empty for demonstration purposes
+    // empty for demonstration purposes
 }
 
 int main() {
