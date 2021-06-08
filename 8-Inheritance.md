@@ -16,5 +16,5 @@ public:
 
 // in a function we can now write
 Sutdent maybeYou;
-maybeYou.name = "???"; // we got it from Human
+maybeYou.name = "???"; // we got name from Human
 ```
