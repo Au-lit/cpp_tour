@@ -11,5 +11,10 @@ struct Human { // struct is like class,
 class Student : public Human { // we steal all the public functionality of a Human
 public:
     std::vector<double> notes;
+	double average();
 };
+
+// in a function we can now write
+Sutdent maybeYou;
+maybeYou.name = "???"; // we got it from Human
 ```
