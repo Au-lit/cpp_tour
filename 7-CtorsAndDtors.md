@@ -26,3 +26,6 @@ But we can fix that by well adding a default one:
 Position() : x(0.0), y(0.0) {}
 ```
 This is why we didn't have undefined values when writing stuff like `std::string str;`; because std classes normally have a default constructor. And yes, `std::string` and `std::vector` are classes.
+#### Notes:
+- Destructors are the inverse of constructors. But you won't really need to write one yet because all that we use is automatically freed on destruction of the class.
+- We will see later that the compiler can write constructirs for you _sometimes_...
