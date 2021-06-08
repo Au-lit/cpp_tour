@@ -36,3 +36,4 @@ int main() {
 ```
 In a way we sort of got rid of the type.
 Seeing that you may ask is there a more "general" way to "stop caring about the type"?
+Yes, there is and it's in the next chapter.
