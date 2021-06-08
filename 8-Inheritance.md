@@ -18,3 +18,18 @@ public:
 Sutdent maybeYou;
 maybeYou.name = "???"; // we got name from Human
 ```
+
+### Fun starts with references
+```cpp
+void seeHuman(const Human& human) {
+    // empty for demonstration purposes
+}
+
+int main() {
+    Human human;
+    Student you;
+    seeHuman(human); // If you debug inside this function
+                     // you should not see a notes member
+    seeHuman(you); // But here you will.
+}
+```
