@@ -11,15 +11,16 @@ struct Human { // struct is like class,
 class Student : public Human { // we steal all public functionality of Human
 public:
     std::vector<double> notes;
-	double average();
+    double average(); // we already implemented it earlier...
 };
-
-// in a function we can now write
+```
+Now in a function you can use it like so:
+```cpp
 Sutdent maybeYou;
 maybeYou.name = "???"; // we got name from Human
 ```
 
-### Fun starts with references
+### Fun starts with references (polymorphism)
 ```cpp
 void seeHuman(const Human& human) {
     // empty for demonstration purposes
@@ -33,3 +34,5 @@ int main() {
     seeHuman(you); // But here you will.
 }
 ```
+In a way we sort of got rid of the type.
+Seeing that you may ask is there a more "general" way to "stop caring about the type"?
